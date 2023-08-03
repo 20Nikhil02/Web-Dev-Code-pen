@@ -13,31 +13,41 @@
 </head>
 
 <body>
-    <h2>This is the Small Web Project Clone of Code Pen</h2>
+    <h2>Web Dev Project : Clone of Code Pen</h2>
 
     <div class="container">
 
        <div class="left">
 
         <label><i class="fa-brands fa-html5"></i> HTML</label>
-        <textarea id="html-code" onkeyup="run()"></textarea>
+        <textarea id="html-code"  onkeyup="run()"></textarea>
 
-        <label><i class="fa-brands fa-css3-alt"></i> CSS</label> 
-        <textarea id="css-code" onkeyup="run()"></textarea>
+        <label><i class="fa-brands fa-css3-alt "></i> CSS</label> 
+        <textarea id="css-code"  onkeyup="run()"></textarea>
 
         <label><i class="fa-brands fa-js"></i> JavaScript</label> 
-        <textarea id="js-code" onkeyup="run()"></textarea>
+        <textarea id="js-code" cols="30%" onkeyup="run()" ></textarea>
 
-    </div>
+        </div>
 
     <div class="right">
 
-        <label><button  onclick="EvalJS()"><i class="fa-solid fa-play" ></i></button> Output</label>
+        <label id="outputlalbel"><i class="fa-solid fa-play" id = "btn" onclick="EvalJS()"></i> Output</label>
         <iframe id="output"></iframe>
 
     </div>
 
-</div>
+
+    </div>
+
+    <footer>
+            <p>Quick Links</p>
+              
+            <p>&copy; <a href="https://mail.google.com/"><abbr title="nikhilnayakbv55@gmail.com">nikhil</abbr></a></p>
+            <p><a href="https://github.com/20Nikhil02"><acronym title="20Nikhil02">github</acronym></a></p>
+            
+
+    </footer>
 
 <script>
 
